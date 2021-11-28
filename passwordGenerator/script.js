@@ -53,13 +53,7 @@ function writePassword() {
         console.log(userChoice)
   var passwordText = document.querySelector("#password");
 
-  /**TA Comment please delete before submission:
-        * we have a string that represents all the characters the user wants
-        * For loop
-        * function that randomly selects a character
-        * A B C D E -> 
-        * 4.5 -> floor rounds down, ceiling rounds up -> 4
-        * */
+  
        var passwordGenerated = ""
 
        for (let index = 0; index < passwordLength; index++) {
